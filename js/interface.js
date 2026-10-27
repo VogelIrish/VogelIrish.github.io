@@ -4,17 +4,17 @@
 import { overall } from './elenco.js?v=9';
 
 const ATRIBUTOS = [
-  ['FOR', 'Força'],
+  ['FOR', 'Fuerca'],
   ['CUR', 'Curva'],
   ['QUE', 'Queda'],
-  ['PRE', 'Precisão'],
-  ['FRI', 'Frieza'],
+  ['PRE', 'Precision'],
+  ['FRI', 'quien sabe'],
 ];
 
 const NOMES_ESPECIAIS = {
   trivela: 'Trivela',
-  semRotacao: 'Sem rotação',
-  folhaSeca: 'Folha seca',
+  semRotacao: 'recto',
+  folhaSeca: 'Knuckleball',
 };
 
 const $ = (id) => document.getElementById(id);
