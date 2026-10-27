@@ -42,7 +42,7 @@ const PELE = {
 export const ELENCO = [
   // ---------- Titulares ----------
   {
-    numero: 1, apelido: 'Mito', nome: 'Rogério Seni', nomeCamisa: 'SENI', referencia: 'Rogério Ceni', posicao: 'GOL', pe: 'D', titular: true,
+    numero: 1, apelido: 'Lamas', nome: 'Santiago Lamas', nomeCamisa: 'Lamas', referencia: 'Rogério Ceni', posicao: 'GOL', pe: 'D', titular: true,
     atributos: { FOR: 84, CUR: 90, QUE: 76, PRE: 96, FRI: 94 },
     especiais: [], estilo: 'O goleiro artilheiro',
     uniforme: { clube: 'São Paulo (goleiro)', padrao: 'faixa', camisa: '#2a2e35', cores: ['#d0021b', '#ffffff', '#111111'], calcao: '#2a2e35', meiao: '#2a2e35', numero: '#ffffff', gola: '#d0021b' },
@@ -90,24 +90,24 @@ export const ELENCO = [
     visual: { pele: PELE.clara, cabelo: { estilo: 'longo', cor: '#3a2a1f' }, barba: 'cheia', corBarba: '#3a2a1f', faixa: null, altura: 1.77, porte: 'magro', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 23, apelido: 'Becks', nome: 'David Beckam', nomeCamisa: 'BECKAM', referencia: 'David Beckham', posicao: 'MD', pe: 'D', titular: true,
-    atributos: { FOR: 84, CUR: 99, QUE: 89, PRE: 98, FRI: 96 },
+    numero: 23, apelido: 'Rulas', nome: 'Raul Bortoni', nomeCamisa: 'Raul', referencia: 'David Beckham', posicao: 'MD', pe: 'D', titular: true,
+    atributos: { FOR: 85, CUR: 75, QUE: 89, PRE: 98, FRI: 96 },
     especiais: [], estilo: 'O mestre da curva',
     uniforme: { clube: 'Manchester United', padrao: 'liso', camisa: '#da291c', cores: [], calcao: '#ffffff', meiao: '#111111', numero: '#ffffff', gola: '#ffffff' },
     cobranca: { postura: 'bracosAbertos', distancia: 3.6, angulo: 48, passos: 4, ritmo: 0.95, batida: 'chapa', braco: 'aberto', assinatura: 'Chega de longe, passos largos e braço aberto' },
     visual: { pele: PELE.clara, cabelo: { estilo: 'moicano', cor: '#e0c070' }, barba: 'nenhuma', faixa: null, altura: 1.80, porte: 'normal', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 10, apelido: 'Galinho', nome: 'Zicco', nomeCamisa: 'ZICCO', referencia: 'Zico', posicao: 'MEI', pe: 'D', titular: true,
-    atributos: { FOR: 82, CUR: 97, QUE: 94, PRE: 99, FRI: 96 },
+    numero: 10, apelido: 'Maxi', nome: 'Maxiemiliano Garza', nomeCamisa: 'Maxi', referencia: 'Zico', posicao: 'MEI', pe: 'D', titular: true,
+    atributos: { FOR: 85, CUR: 85, QUE: 94, PRE: 85, FRI: 96 },
     especiais: [], estilo: 'Colocação perfeita',
     uniforme: { clube: 'Flamengo', padrao: 'aros', camisa: '#c4142b', cores: ['#111111'], calcao: '#ffffff', meiao: '#c4142b', numero: '#ffffff', gola: '#111111' },
     cobranca: { postura: 'normal', distancia: 2.2, angulo: 35, passos: 3, ritmo: 0.95, batida: 'chapa', braco: 'normal', assinatura: 'Três passos e a bola no ângulo' },
     visual: { pele: PELE.clara, cabelo: { estilo: 'medio', cor: '#2e2018' }, barba: 'nenhuma', faixa: null, altura: 1.72, porte: 'magro', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 80, apelido: 'Bruxo', nome: 'Ronaldiño', nomeCamisa: 'RONALDIÑO', referencia: 'Ronaldinho', posicao: 'ME', pe: 'D', titular: true,
-    atributos: { FOR: 82, CUR: 95, QUE: 90, PRE: 94, FRI: 91 },
+    numero: 80, apelido: 'Beto', nome: 'Beto', nomeCamisa: 'Treviño', referencia: 'Ronaldinho', posicao: 'ME', pe: 'D', titular: true,
+    atributos: { FOR: 70, CUR: 70, QUE: 70, PRE: 70, FRI: 91 },
     especiais: [], estilo: 'Mágica por cima ou por baixo',
     uniforme: { clube: 'Barcelona', padrao: 'listras', camisa: '#a50044', cores: ['#004d98'], calcao: '#004d98', meiao: '#004d98', numero: '#f7d84a', gola: '#004d98' },
     cobranca: { postura: 'lateral', distancia: 0.9, angulo: 70, passos: 2, ritmo: 0.8, batida: 'chapa', braco: 'normal', assinatura: 'Parado de lado, quase sem corrida' },
@@ -132,16 +132,16 @@ export const ELENCO = [
 
   // ---------- Reservas ----------
   {
-    numero: 12, apelido: 'Chila', nome: 'José Luis Chilabert', nomeCamisa: 'CHILABERT', referencia: 'José Luis Chilavert', posicao: 'GOL', pe: 'E', titular: false,
-    atributos: { FOR: 92, CUR: 76, QUE: 74, PRE: 86, FRI: 94 },
+    numero: 12, apelido: 'Robe', nome: 'Roberto Garza', nomeCamisa: 'Robe', referencia: 'José Luis Chilavert', posicao: 'GOL', pe: 'E', titular: false,
+    atributos: { FOR: 107, CUR: 0, QUE: 99, PRE: 0, FRI: 0 },
     especiais: [], estilo: 'Goleiro de pé pesado',
     uniforme: { clube: 'Vélez (goleiro)', padrao: 'v', camisa: '#1d3f8f', cores: ['#ffffff'], calcao: '#1d3f8f', meiao: '#1d3f8f', numero: '#ffffff', gola: '#ffffff' },
     cobranca: { postura: 'ereto', distancia: 4.5, angulo: 20, passos: 6, ritmo: 1.05, batida: 'peito', braco: 'normal', assinatura: 'Atravessa o campo e solta a bomba' },
     visual: { pele: PELE.bronzeada, cabelo: { estilo: 'curto', cor: '#1b1410' }, barba: 'nenhuma', faixa: null, altura: 1.88, porte: 'forte', coxas: 'normais', chuteira: '#111111', goleiro: true },
   },
   {
-    numero: 13, apelido: 'Rei da Trivela', nome: 'Nelinho', nomeCamisa: 'NELINHO', referencia: 'Nelinho', posicao: 'LD', pe: 'D', titular: false,
-    atributos: { FOR: 97, CUR: 98, QUE: 75, PRE: 84, FRI: 88 },
+    numero: 13, apelido: 'Muela', nome: 'Eugenio Muela', nomeCamisa: 'Muela', referencia: 'Nelinho', posicao: 'LD', pe: 'D', titular: false,
+    atributos: { FOR: 90, CUR: 98, QUE: 88, PRE: 84, FRI: 88 },
     especiais: ['trivela'], estilo: 'A trivela impossível',
     uniforme: { clube: 'Cruzeiro', padrao: 'liso', camisa: '#0033a0', cores: [], calcao: '#ffffff', meiao: '#ffffff', numero: '#ffffff', gola: '#ffffff' },
     cobranca: { postura: 'normal', distancia: 3.2, angulo: 15, passos: 5, ritmo: 1.1, batida: 'trivela', braco: 'normal', assinatura: 'Trivela de três dedos' },
