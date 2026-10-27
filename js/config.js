@@ -7,7 +7,7 @@ export const CONFIG = {
   // Mundo
   gravidade: 9.81,        // m/s²
   arrasto: 0.012,         // resistência do ar: quanto maior, mais a bola freia no voo
-  magnus: 0.05,          // quanto o giro desvia a bola (efeito Magnus)
+  magnus: 0.005,          // quanto o giro desvia a bola (efeito Magnus)
   decaimentoGiro: 0.15,   // quanto o giro perde por segundo (0.15 = 15%)
   raioBola: 0.11,         // m
   magnusLimite: 0.5,      // limite do efeito Magnus: com giro × raio acima de metade da velocidade, girar mais não curva mais
@@ -48,9 +48,9 @@ export const CONFIG = {
   // Cobradores (atributos de 0 a 99)
   pesoAtributos: 0.9,    // diferença total entre a nota 60 e a 99 em cada efeito (0.15 = 15%)
   trivelaGiro: 0.6,       // trivela de quem não é especialista: fração da curva
-  trivelaErro: 0,       // ... e quanto o erro aumenta
+  trivelaErro: 0.1,       // ... e quanto o erro aumenta
   trivelaGiroEspecialista: 1.05, // trivela de especialista: fração da curva
-  trivelaErroEspecialista: 0,  // ... e quanto o erro aumenta
+  trivelaErroEspecialista: 0.1,  // ... e quanto o erro aumenta
   trivelaTardia: 3,       // quanto a curva da trivela do especialista cresce no fim (0 = igual à normal)
   trivelaTardiaInicio: 0.6, // curva da trivela do especialista logo depois do chute (fração da normal)
   folhaSecaAngulo: 0.4,   // especialista em folha seca: fração do ângulo perdido com o pé em cima
